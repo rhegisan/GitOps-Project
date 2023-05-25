@@ -1,0 +1,10 @@
+variable "key_pair_name" {
+  type    = string
+  default = "K3sArgoCD"
+}
+
+
+variable "public_key" {
+  type    = string
+  default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCiCuZNWzXVaWYP6piY7Paj9z7SwjKwKLXwBI9P+fkcY9BkE+MEJmWPIoxdxv9eXXgGob+dgf0wV5wSz89CranKnnV3dCC9YyI1YuPUyquSDmPTY0eg7Jo5nrsCay5GJMQG2kEgEfmZsolB9v35CNZOaA7TS/w2mfc8GSQ0dES1DGYl5hF2KXYhoFPoxi2z3ln6w+PiZbqqamy5WZHxvVyIQbhtPpFs9GRfS7UxkI+Ckc18KaqvC7To3PQG06nDHb05641DampJP53C7LTpoQ2U7HkC7t2wj+v0uw3JyMqABnXRetxiFjmjIT07FMhPUIAmCXlwh+xg4cjVw1qGRiqfCJTFRLujv9Mtwcz1cPR8zTUZZIZ1xKo/+SbBHnlBqC0vLsr4tOlawpsQQwTD9CJtlRiGGbJlJaAV4TtdEBAnB49YRCJ2lTgYIUVHSkMpQHDzgO1G2Ucu9GS4wtGWa7rUhlInamcq9YWl6BAFQ4yK45TrekbNog9BtZW/lWXLJ48AF4g/b+GZ1HxYduuncZT+bjJEDdNakSadanCWIYpOZYlEfd+cQ4nQjc6YhHZn1pNIHws0iLPQzayMhrmnxGPkDQxSBybbv8DL45qDmeuRrcrz2D2Ej55dbYLX4rqQkFXF/cPGK+vdnK6jPqKbGtFepHcHCP9v1SIVne0UG4m4mw== rhegi@DESKTOP-R10BBGJ"
+}
